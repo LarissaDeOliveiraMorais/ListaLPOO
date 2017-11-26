@@ -14,7 +14,7 @@ public class Principal {
 		Aniversario cartao3 = new Aniversario("Deltrano");
 		cartoes[2] = cartao3;
 		for(int i = 0; i < cartoes.length; i++) {
-			JOptionPane.showMessageDialog(null, cartoes[i].retornarMensagem("Marcelo"));
+			JOptionPane.showMessageDialog(null, cartoes[i].retornarMensagem("lari"));
 		}
 	}
 
